@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://github.com/vsbpan/vsbpan.github.io/sitemap.xml
