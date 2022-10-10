@@ -5,16 +5,6 @@
     <link>https://vsbpan.github.io/series/</link>
     <description>Recent content in Series on Vincent Pan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 09 Aug 2022 15:38:30 +0800</lastBuildDate><atom:link href="https://vsbpan.github.io/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Themes Guide</title>
-      <link>https://vsbpan.github.io/series/themes-guide/</link>
-      <pubDate>Tue, 09 Aug 2022 15:38:30 +0800</pubDate>
-      
-      <guid>https://vsbpan.github.io/series/themes-guide/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language><atom:link href="https://vsbpan.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

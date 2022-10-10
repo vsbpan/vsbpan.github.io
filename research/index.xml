@@ -5,6 +5,16 @@
     <link>https://vsbpan.github.io/research/</link>
     <description>Recent content in Research on Vincent Pan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://vsbpan.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vsbpan.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hmmmmm</title>
+      <link>https://vsbpan.github.io/research/test/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vsbpan.github.io/research/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
