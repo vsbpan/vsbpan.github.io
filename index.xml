@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincent Pan</title>
+    <link>https://vsbpan.github.io/</link>
+    <description>Recent content on Vincent Pan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vsbpan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It takes two to make a thing toxic</title>
+      <link>https://vsbpan.github.io/posts/post1/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vsbpan.github.io/posts/post1/</guid>
+      <description>under construction</description>
+    </item>
+    
+  </channel>
+</rss>
