@@ -11,20 +11,20 @@
     
   
 
-  <title>Herbivory Variation | Vincent Pan</title>
+  <title>Plant trait variation | Vincent Pan</title>
 
   
   <meta name="author" content="Vincent Pan">
   
-  <meta name="description" content="Causes And Consequences of Herbivory Variation From Tissue to Biogeography">
+  <meta name="description" content="The Functional Ecology of Plant Trait Variation">
   <meta name="keywords" content="plant-insect interactions, plant defense, herbivore offense, quantitative ecology, functional ecology, evolutionary ecology, statistics">
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Herbivory Variation"/>
-<meta name="twitter:description" content="Causes And Consequences of Herbivory Variation From Tissue to Biogeography"/>
+<meta name="twitter:title" content="Plant trait variation"/>
+<meta name="twitter:description" content="The Functional Ecology of Plant Trait Variation"/>
 
-  <meta property="og:title" content="Herbivory Variation" />
-<meta property="og:description" content="Causes And Consequences of Herbivory Variation From Tissue to Biogeography" />
+  <meta property="og:title" content="Plant trait variation" />
+<meta property="og:description" content="The Functional Ecology of Plant Trait Variation" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://vsbpan.github.io/research/research1/" />
 
@@ -194,10 +194,10 @@
         
         <div class="site-heading">
         
-          <h1>Herbivory Variation</h1>
+          <h1>Plant trait variation</h1>
           
           
-          <span class="subheading">Causes And Consequences of Herbivory Variation From Tissue to Biogeography</span>
+          <span class="subheading">The Functional Ecology of Plant Trait Variation</span>
         </div>
       </div>
     </div>
@@ -208,33 +208,23 @@
   
 
 <div class="container">
-  <figure style="float:right; margin:5px; width:400px">
-  <img src="/images/research1_body.jpg" alt="" style="float:right; margin:1px" width="400px"/>
-  <figcaption align="center" style="float:right; margin:1px" width="400px">
-  Among plant herbivory within a population in the HerbVar data set. Many plants get very little or no herbivory. Deviations from neutral predictions is explained by plant phylogeny. 
+  <figure style="float:right; margin:5px; width:700px;text-align:center;display:flex; justify-content:space-between;">
+  <div>
+<img src="/images/research1_body1.jpg" alt="" style="margin:1px" width="364px"/>
+  <figcaption style="margin:1px;">
+    Spatial variation in plant quality, both within and among individual leaves, is widespread in nature and sometimes visible through pigmentation differences.
   </figcaption>
-</figure>
-<figure style="float:right; margin:5px; width:200px">
-  <img src="/images/research1_body3_mod.jpg" alt="" style="float:right; margin:1px" width="200px"/>
-  <figcaption align="center" style="float:right; margin:1px" width="200px">
-  Artifical damage on <i> Echinacea purpurea</i>. 
+  </div>
+  <div>
+  <img src="/images/research1_body2.gif" alt="" style="margin:1px" width="350px"/>
+  <figcaption style="margin:1px;">
+    A <i>Trichoplusia ni</i> feeding on a synthetic diet landscape with non-toxic (dark squares) and toxic diets (light squares). The caterpillar is tracked by a camera aided with computer vision. 
   </figcaption>
+  </div>
 </figure>
-<p>The distribution of herbivory has long been noted for its variability. This heterogeneity has long been a source of speculation and is often used as evidence for a wide array of biological hypotheses, including induced defenses, plant communication, herbivore movement, variable selection regimes, and variable plant qualities. Yet, little is known about how different herbivory patterns are generated. Understanding the distribution of herbivory is important because it has profound impacts on plant population dynamics, stress tolerance, and crop yield.</p>
-<p>Inspired by the seminal paper of Edwards &amp; Wratten (<a href="https://doi.org/10.1007/BF00388079">1983</a>), I investigate herbivory patterns among species, among individual plants, among leaves, and within leaves. To do so, I rely on methods ranging from small scale experiments to global data synthesis, with an emphasis on using and developing novel quantitative tools for studying herbivory. I focus on two primary questions: (1) How do plant traits and herbivore behavior affect herbivory distribution? (2) How do different patterns of herbivory distribution affect plant fitness and population dynamics?</p>
-<figure style="float:right; margin:5px; width:550px">
-  <img src="/images/research1_body2.jpg" alt="" style="float:right; margin:1px" width="550px"/>
-  <figcaption align="center" style="float:right; margin:1px" width="550px">
-  Herbivory patterns at the within leaf level are highly diverse, ranging from small, dispersed holes to large patches of aggregated damage. Even accounting for feeding guilds and species, the same individual herbivore can generate very different spatial distributions of within leaf damage.
-  </figcaption>
-</figure>
-<figure style="float:right; margin:5px; width:160px">
-  <img src="/images/herbivar.jpg" alt="" style="float:right; margin:1px" width="160px"/>
-  <figcaption align="center" style="float:right; margin:1px" width="160px">
-  R package <i>herbivar</i> logo. Stable version available on <a href="https://github.com/vsbpan/herbivar">GitHub</a>. 
-  </figcaption>
-</figure>
-<p>As a start, I developed a neutral model of herbivory from first principles to separate herbivory patterns caused by hypothesized biological mechanisms from purely neutral stochastic process. Comparison of the neutral model to an extensive global data set of herbivory from the <a href="https://herbvar.org/"><span style="color: blue">HerbVar Network</span></a> revealed that neutral stochastic processes dominate natural variation in herbivory, but deviations from neutral patterns are detectable and predictable (<a href="https://doi.org/10.1098/rspb.2023.2687">Pan et al. 2024</a>). I also developed a high throughput leaf image processing pipeline to extract within leaf herbivory patterns. Using this pipeline, I found that tissue level herbivory tends to be more spatially aggregated when overall food quality is higher, consistent with optimal foraging theory. These tools are available in my R package <em>herbivar</em> with more capabilities to come.</p>
+Chemical defenses, a key plant functional trait that drives interactions with herbivores, are highly variable in nature at all scales (Wetzel et al. 2023). The variation comes in the forms of both chemical diversity and spatiotemporal variation in the concentration of individual chemical compounds. As the rest of ecology is concerned with explaining the patterns and consequences of species diversity, similar questions can be asked of plant chemical diversity and variation. How did they evolve? How are they maintained? How do they affect interactions with herbivores? How do herbivores deal with spatial and temporal variation in plant chemistry? 
+<p>Answers to these questions have significant implications for understanding the effects of biotic homogenization, agricultural diversification, and community and population dynamics of herbivores and plants.</p>
+<p>I investigate these questions using both experiments and theory. In one study, I applied varying doses of toxins to <em>Arabidopsis</em> and found that toxin variation within and across plants can enhance plant fitness by defending against herbivores. I also developed a method to partition the effects of this variation into different mechanisms. In another study, I created artificial diet landscapes with different spatial patterns of plant toxins (Pan et al. 2024). I observed that both the spatial variance and spatial arrangement of toxins influenced herbivore performance and space use, and did so at a magnitude on par with varying the mean toxin concentration. Modeling suggests that simple herbivore behaviors can explain these emergent effects.</p>
 
 </div>
 
